@@ -1,0 +1,87 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 10.06.2014, 21:18:54
+    Author     : linn
+*/
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+    background: #ebe892;
+}
+
+.wrapper{
+    width: 745px;
+    height: 1045px;
+    padding: 0 10px 10px 0;
+    color: #000000;
+    background: #ffffff;
+}
+.wrapper-inside{
+    position: relative;
+}
+.border-right-bottom{
+    border-right: 1px solid #ababab;
+    border-bottom: 1px solid #ababab;
+    width: 734px;
+    height: 1034px;
+}
+.cut-line{
+    height: 10px;
+    position: absolute;
+    top: 50%;
+    bottom: 0;
+    left: -45px;
+    width: 100px;
+    background: red;
+    /*right: 0;*/
+}
+.cut-line-wrapper{
+    width: 10px;
+    height: 1034px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.cut-line:after{
+    content: '..';
+    width: 500px;
+    height: 10px;
+    background: yellow;
+}
+.rotate {
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+
+    /* also accepts left, right, top, bottom coordinates; not required, but a good idea for styling */
+    -webkit-transform-origin: 50% 50%;
+    -moz-transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+    -o-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+
+    /* Should be unset in IE9+ I think. */
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+    writing-mode: tb-rl; /* для IE ниже 9 */
+    transform-origin: top left;
+
+}
