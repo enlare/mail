@@ -21,6 +21,18 @@ and open the template in the editor.
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
+.clearfix:before,
+.clearfix:after{
+    display: table;
+    content: " ";
+    clear: both;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
 body{
     background: #ebe892;
 }
@@ -34,54 +46,276 @@ body{
 }
 .wrapper-inside{
     position: relative;
+    padding-left: 10px;
+    border-right: 1px solid #ababab;
+    border-bottom: 1px solid #ababab;
+    width: 724px;
+    height: 1034px;
+    border-left: 1px dotted #ababab;
+    margin: 0 0 0 10px;
 }
 .border-right-bottom{
     border-right: 1px solid #ababab;
     border-bottom: 1px solid #ababab;
-    width: 734px;
+    width: 724px;
     height: 1034px;
 }
 .cut-line{
     height: 10px;
+    width: 90px;
     position: absolute;
     top: 50%;
-    bottom: 0;
-    left: -45px;
-    width: 100px;
-    background: red;
-    /*right: 0;*/
+    left: 0;
+    font-family: arial;
+    font-size: 12px;
+    background: #ffffff;
+    left: -8px;
+    font-style: italic;
 }
-.cut-line-wrapper{
+.for-sender{
+    font-weight: bold;
+    left: 2px;
+    font-size: 13px;
+    top: 577px;
+    width: 372px;
+    height: 13px;
+    background: none;
+}
+.for-sender-right{
+    font-weight: bold;
+    right: 2px;
+    font-size: 13px;
+    top: 577px;
+    width: 372px;
+    height: 13px;
+    background: none;
+}
+/*.cut-line-wrapper{
     width: 10px;
     height: 1034px;
     position: absolute;
     left: 0;
     top: 0;
-}
 
-.cut-line:after{
-    content: '..';
-    width: 500px;
-    height: 10px;
-    background: yellow;
-}
+}*/
+
 .rotate {
     -webkit-transform: rotate(-90deg);
     -moz-transform: rotate(-90deg);
     -ms-transform: rotate(-90deg);
     -o-transform: rotate(-90deg);
     transform: rotate(-90deg);
-
-    /* also accepts left, right, top, bottom coordinates; not required, but a good idea for styling */
-    -webkit-transform-origin: 50% 50%;
-    -moz-transform-origin: 50% 50%;
-    -ms-transform-origin: 50% 50%;
-    -o-transform-origin: 50% 50%;
-    transform-origin: 50% 50%;
+    /* Rotate from top left corner (not default) */
+    -webkit-transform-origin: 0 0;
+    -moz-transform-origin:    0 0;
+    -ms-transform-origin:     0 0;
+    -o-transform-origin:      0 0;
 
     /* Should be unset in IE9+ I think. */
     filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
     writing-mode: tb-rl; /* для IE ниже 9 */
     transform-origin: top left;
 
+}
+.top-row{
+    height: 228px;
+    width: 100%;
+    padding: 0 0 0 25px;
+
+}
+.stamp-wrapper {
+    width: 180px;
+}
+.logo{
+    background: url(img/logo.png) 0 0 no-repeat;
+    width: 85px;
+    height: 93px;
+    margin: 17px 33px 0 0;
+}
+.reception{
+    width: 16px;
+    line-height: 22px;
+    font-size: 18px;
+    text-transform: uppercase;
+    /*background-color: #ffffc9;*/
+    font-family: 'Times New Roman';
+    margin: 17px 0 0 0;
+    text-align: center;
+    font-weight: bold;
+}
+.post{
+    font-family: 'Times New Roman';
+    margin: 10px 0 0 0;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: -1px;
+    /*font-family: 'PT Serif', serif;*/
+    /*font-family: Courier, "Courier New", monospace;*/
+    /*font-family:Georgia, serif;*/
+    /*font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;*/
+}
+/*.*/
+.bordered-row{
+    border-top: 1px solid #000;
+
+}
+.font-13{
+    font-size: 13px;
+    text-align: center;
+}
+.font-12{
+    font-size: 12px;
+    text-align: center;
+}
+.font-11{
+    font-size: 11px;
+    text-align: center;
+}
+.label{
+    background: #ffffff;
+    width: auto;
+    height: 15px;
+    /* outline: 1px solid; */
+    z-index: 55;
+    position: relative;
+    display: inline-block;
+    padding-right: 3px;
+    /*font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;*/
+    font-size: 16px;
+    font-family:Georgia, serif;
+}
+.bordered-row-top{
+    margin-top: -5px;
+    z-index: 1;
+
+}
+.dotted-left-bottom{
+    border-left: 2px dotted #c9c9c9;
+    border-bottom: 2px dotted #c9c9c9;
+}
+.f-wrapper{
+    border-bottom-left-radius: 4px;
+    position: relative;
+    height: 225px;
+    width: 500px;
+}
+.f{
+    margin: 10px 10px 0 0;
+    font-weight: bold;
+}
+.bold-border{
+    border: 3px solid #000000;
+    width: 696px;
+    margin: 0 auto;
+}
+.bold-border-header-yellow{
+    width: 670px;
+    margin: 0 auto;
+    background: #fff300;
+}
+.capsed-text{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 5px 0 0;
+}
+.medium-bold-text{
+    font-size: 18px;
+    font-weight: bold;
+}
+.underlined-text-italic{
+    font-style: italic;
+    border-bottom: 1px solid #000000;
+    /*font-size: 22px;*/
+    font-size: 20px;
+    line-height: 18px;
+    margin: 2px 2px 0 3px;
+    text-align: center;
+}
+.underlined-40{
+    width: 40px;
+}
+.underlined-90{
+    width: 90px;
+}
+.stripes{
+    background: url(img/stripes.png) 0 0 repeat-x;
+    height: 30px;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    font-style: italic;
+    padding: 0 0 4px;
+    font-size: 25px;
+    line-height: 23px;
+    text-align: center;
+    width: 670px;
+    margin: 1px auto 0 auto;
+}
+.row-label{
+    height: 30px;
+    /*line-height: 35px;*/
+    line-height: 42px;
+    font-weight: bold;
+    margin: 0 2px 0 10px;
+}
+.italic-form-text{
+    height: 30px;
+    font-style: italic;
+    font-size: 27px;
+    line-height: 28px;
+    border-bottom: 1px solid #000000;
+
+    text-align: left;
+}
+.italic-text-wrapper{
+    width: 622px;
+}
+.bordered-row-28{
+    border-bottom: 1px solid #000000;
+    height: 28px;
+    margin: -12px auto 0 auto;
+    width: 670px;
+    font-style: italic;
+    font-size: 27px;
+    line-height: 9px;
+}
+.no-border{
+    border: none;
+}
+.bold-border-index{
+    border: 2px solid #000;
+    border-bottom: 1px solid #000;
+    height: 28px;
+    width: 515px;
+    margin: 0 0 0 3px;
+}
+.index-wrapper{
+    border-top: 1px solid #000000;
+    height: 28px;
+    width: 160px;
+    border-bottom: 2px solid #000;
+}
+.index-text{
+    text-align: right;
+    font-size: 13px;
+    padding: 0 1px 6px 0;
+    line-height: 20px;
+    width: 57px;
+    
+}
+.number-wrapper{
+    width: 103px;
+    border-left:1px solid #c0c0c0;
+}
+.index-number{
+    font-size: 23px;
+    font-style: italic;
+    width: 17px;
+    height: 24px;
+    line-height: 24px;
+    border-top:1px solid #c0c0c0;
+    border-right:1px solid #c0c0c0;
+    margin: 1px 0 0 0;
+    text-align: center;
 }
