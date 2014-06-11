@@ -44,6 +44,10 @@ body{
     color: #000000;
     background: #ffffff;
 }
+.wrapper-card2{
+    width:1084px;
+    padding: 0 10px;
+}
 .wrapper-inside{
     position: relative;
     padding-left: 10px;
@@ -62,7 +66,7 @@ body{
 }
 .cut-line{
     height: 10px;
-    width: 90px;
+    width: 100px;
     position: absolute;
     top: 50%;
     left: 0;
@@ -71,6 +75,7 @@ body{
     background: #ffffff;
     left: -8px;
     font-style: italic;
+    padding: 0 5px;
 }
 .for-sender{
     font-weight: bold;
@@ -133,6 +138,10 @@ body{
     height: 93px;
     margin: 17px 33px 0 0;
 }
+.logo-card2{
+    margin: 1px 21px 0 0;
+}
+
 .reception{
     width: 16px;
     line-height: 22px;
@@ -525,4 +534,66 @@ body{
 }
 .bottom-sign-wrapper{
     margin: 8px 0 0 6px;
+}
+
+
+
+
+/*вторая карточка*/
+
+.left-side{
+    width: 360px;
+    padding: 2px 20px 0 0;
+    float: left;
+    height: 1045px;
+}
+.right-side{
+    width: 703px;
+    height: 1045px;
+    float: left;
+    border-left: 1px dotted #c9c9c9;
+}
+.cut-line-360{
+    left: 363px;
+}
+.left-side-row-label{
+    margin: 0;
+    height: 31px;
+    line-height: 42px;
+    font-weight: bold;
+    background: #ffffff;
+    width: auto;
+    z-index: 55;
+    position: relative;
+    display: inline-block;
+    padding-right: 3px;
+    font-size: 16px;
+    font-family: Georgia, serif;
+}
+.ticket-wrapper{
+    margin: 17px 10px 0 26px;
+    text-align: center;
+}
+.ticket-small-text{
+    font-weight: bold;
+    font-size: 16px;
+}
+.ticket-rub{
+    width: 92px;
+    margin: 0 2px 0 0;
+}
+.ticket-kop{
+    width: 70px;
+}
+/*.notification{
+     width: 92px;
+}*/
+.notification-label{
+    font-weight: normal;
+}
+.notification-row{
+    width: 170px;
+}
+.bold{
+    font-weight: bold;
 }
