@@ -1,11 +1,6 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
 /* 
     Created on : 10.06.2014, 21:18:54
-    Author     : linn
+    Author     : linn.coffeein@gmail.com
 */
 
 * {
@@ -139,7 +134,7 @@ body{
     margin: 17px 33px 0 0;
 }
 .logo-card2{
-    margin: 1px 21px 0 0;
+    margin: 3px 21px 0 0;
 }
 
 .reception{
@@ -585,7 +580,7 @@ body{
     line-height: 31px;
 }
 .ticket-wrapper{
-    margin: 17px 10px 0 26px;
+    margin: 28px 10px 0 26px;
     text-align: center;
 }
 .ticket-small-text{
@@ -645,7 +640,7 @@ body{
     width: 100%;
     padding: 0 0 1px 0;
     height: 30px;
-    margin: 20px 0 0 0;
+    margin: 28px 0 0 0;
 }
 .bold-width-200{
     font-weight: bold;
@@ -671,8 +666,9 @@ body{
 .bold-bordered-form{
     border: 4px solid #000000;
     width: 100%;
-    height: 610px;
+    /*height: 610px;*/
     padding: 2px 3px 10px 10px;
+    height: 600px;
 }
 .summ{
     font-size: 18px;
@@ -715,7 +711,7 @@ body{
     background: none;
     font-style: italic;
     font-size: 16px;
-     margin: 0;
+    margin: 0;
 }
 .no-background{
     background: none;
@@ -733,4 +729,62 @@ body{
     font-style: italic;
     font-size: 14px;
     font-weight: bold;
+}
+.inn-row-card2{
+    padding: 2px 0 0 0;
+    height: 28px;
+}
+.margin-top-minis-10{
+    margin-top: -10px;
+}
+.margin-top-minis-15{
+    margin-top: -15px;
+}
+.docs-cell-wrapper-card2 .doc-name{
+    border-bottom: 2px solid #000000;
+}
+.docs-cell-wrapper-card2 .docs-row-bottom{
+    margin-top: 4px;
+}
+.width-530{
+    width: 530px;
+}
+.padding-right{
+    padding-right: 25px;
+}
+.line-height-45{
+    line-height: 45px;
+}
+.width-260{
+    width: 260px;
+    text-align: left;
+    font-size: 14px;
+}
+.width-100{
+    width: 140px;
+    text-align: left;
+    font-size: 13px;
+}
+.otmetki{
+    background: none;
+    font-style: italic;
+    font-size: 16px;
+    margin: 20px 0 -5px 0;
+}
+.stamp{
+    width: 100px;
+    height: 102px;
+    border: 2px solid #000000;
+    margin: 17px auto 0 auto;
+}
+.width-160{
+    width: 160px;
+}
+.stamp-text{
+    width: 120px;
+    text-align: center;
+    font-style: italic;
+    font-size: 12px;
+    margin: 10px auto 0 auto;
+    /*font-weight: bold;*/
 }
