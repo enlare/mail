@@ -163,9 +163,13 @@ body{
 .font-13{
     font-size: 13px;
     text-align: center;
+    height: 13px;
+    line-height: 13px;
 }
 .font-12{
     font-size: 12px;
+    height: 12px;
+    line-height: 12px;
     text-align: center;
 }
 .font-11{
@@ -341,9 +345,9 @@ body{
 
 .inn-row{
     border-bottom: 1px solid #000;
-    padding: 23px 0 0 0;
+    padding: 21px 0 0 0;
     width: 100%;
-    height: 50px;
+    height: 47px;
 }
 .bank-name-row{
     height: 28px;
@@ -369,32 +373,155 @@ body{
     margin-bottom: 3px;
 }
 .payment-row{
-    padding: 23px 27px;
+    padding: 21px 27px 16px 27px;
 }
 .payment-text-wrapper{
     /*width: 134px;*/
     margin: 5px 24px 0 0;
 }
 .payment-text-small{
-    width: 90px;
+    width: 99px;
     font-size: 17px;
     font-family: arial;
     text-align: right;
 }
 .rpo{
-    font-size: 35px;
+    font-size: 26px;
     text-transform: uppercase;
-    font-weight: bold;
+    /*font-weight: bold;*/
     font-family: arial;
 }
 .za-rpo{
     width: auto;
     line-height: 30px;
-    line-height: 51px;
+    line-height: 38px;
     margin: 0 10px 0 0;
 }
 .rpo-dotted{
     border: 2px dotted #d7d7d7;
-    padding: 23px 30px;
+    padding: 24px 30px;
     font-size: 30px;
+}
+.sign-wrapper{
+    width: 137px;
+    margin: -5px 0 0 0;
+}
+.sign-row{
+    border-bottom: 1px solid #000;
+    height: 38px;
+    width: 100%;
+}
+.bold-cursive-14{
+    font-weight: bold;
+    font-size: 16px;
+    font-style: italic;
+    height: 16px;
+}
+.big-dashed{
+    border: 4px dashed #000;
+    height: 332px;
+    width: 692px;
+    margin: 0 auto 3px 5px;
+    padding: 0 5px;
+}
+.border-row{
+    border-bottom: 2px solid #000;
+    height: 31px;
+}
+.fio-inn-wrapper{
+    border-bottom:none;
+    width: auto;
+    margin: 5px 0 -3px 13px;
+    border-top: none;
+}
+.fio-inn-text{
+    font-style: italic;
+    width: 60px;
+    font-size: 11px;
+    line-height: 12px;
+}
+.fio-form-text{
+    border: none;
+    line-height: 34px;
+}
+.big-dashed-row{
+    height: 32px;
+    /* line-height: 35px; */
+    line-height: 42px;
+    /*font-weight: bold;*/
+    margin: 0 2px -4px 0;
+    padding: 0 0 0 5px;
+}
+.address-text-wrapper{
+    width: 520px;
+}
+.form-text-second-row{
+    line-height: 9px;
+}
+.docs-cell-wrapper{
+    width: 669px;
+    margin: 1px 2px 0 4px;
+    border: 1px solid #000000;
+}
+.docs-row{
+    /*border-bottom: 1px solid #000000;*/
+}
+.docs-cell{
+    padding: 0 7px;
+}
+.docs-text{
+    font-size: 14px;
+    margin: 0 2px 2px 0;
+    padding: 0;
+}
+.doc-name{
+    height: 25px;
+    border-bottom: 1px solid #000;
+}
+.docs-name-wrapper{
+    width: 180px;
+}
+.seria-wrapper{
+    width: 87px;
+    margin: 0 2px 0 0;
+}
+.docs-number-wrapper{
+    width: 100px;
+    margin: 0 2px 0 0;
+}
+.width-25{
+    width: 25px;
+    margin: 0 2px 0 0;
+}
+.width-45{
+    width: 45px;
+    margin: 0 2px 0 0;
+}
+.docs-row .row-label{
+    font-weight: normal;
+}
+.docs-row-bottom{
+    margin-top: -7px;
+}
+.nerezident{
+    text-decoration: underline;
+    font-style: italic;
+    font-size: 12px;
+    height: 12px;
+    line-height: 12px;
+    margin: 0 0 -10px 0;
+    position: relative;
+    z-index: 999;
+}
+.border-top{
+    border-top: 2px solid #000000; 
+}
+.underlined{
+    text-decoration: underline;
+}
+.bottom-sign{
+    margin: 0 0 0 246px;
+}
+.bottom-sign-wrapper{
+    margin: 8px 0 0 6px;
 }
