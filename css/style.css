@@ -441,7 +441,7 @@ body{
 .fio-inn-wrapper{
     border-bottom:none;
     width: auto;
-    margin: 5px 0 -3px 13px;
+    margin: 5px 0 -2px 0;
     border-top: none;
 }
 .fio-inn-text{
@@ -463,7 +463,7 @@ body{
     padding: 0 0 0 5px;
 }
 .address-text-wrapper{
-    width: 520px;
+    width: 487px;
 }
 .form-text-second-row{
     line-height: 9px;
@@ -489,18 +489,18 @@ body{
     border-bottom: 1px solid #000;
 }
 .docs-name-wrapper{
-    width: 176px;
+    width: 170px;
 }
 .seria-wrapper{
-    width: 87px;
+    width: 75px;
     margin: 0 2px 0 0;
 }
 .docs-number-wrapper{
     width: 100px;
     margin: 0 2px 0 0;
 }
-.width-25{
-    width: 25px;
+.width-23{
+    width: 23px;
     margin: 0 2px 0 0;
 }
 .width-45{
@@ -596,4 +596,7 @@ body{
 }
 .bold{
     font-weight: bold;
+}
+.fio-text-wrapper{
+    width: 594px;
 }
