@@ -279,8 +279,8 @@ body{
 .italic-form-text{
     height: 30px;
     font-style: italic;
-    font-size: 27px;
-    line-height: 28px;
+    font-size: 25px;
+    line-height: 27px;
     border-bottom: 1px solid #000000;
 
     text-align: left;
@@ -489,7 +489,7 @@ body{
     border-bottom: 1px solid #000;
 }
 .docs-name-wrapper{
-    width: 180px;
+    width: 176px;
 }
 .seria-wrapper{
     width: 87px;
